@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 21
+    buildToolsVersion "21"
 
     defaultConfig {
         applicationId "com.rom1v.sndcpy"
-        minSdkVersion 29
-        targetSdkVersion 29
+        minSdkVersion 21
+        targetSdkVersion 21
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
